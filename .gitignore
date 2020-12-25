@@ -1,2 +1,4 @@
 
 obj/Debug/net5.0/myWebApp.assets.cache
+.vscode/launch.json
+.vscode/tasks.json

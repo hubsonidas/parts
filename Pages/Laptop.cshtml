@@ -1,0 +1,46 @@
+﻿@page
+@model LaptopModel
+@{
+    ViewData["Title"] = "laptop";
+}
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Laptopi</title>
+</head>
+<body>
+
+    <h3>Add Laptop</h3>
+    <form method="post" asp-page="Laptop">
+        <table cellpadding="2" cellspacing="2">
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" asp-for="laptop.Model" />
+                </td>
+            </tr>
+            <tr>
+                <td>Producer</td>
+                <td>
+                    <input type="text" asp-for="laptop.Producer" />
+                </td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td>
+                    <input type="text" asp-for="laptop.State" />
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="submit" value="Save" />
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
