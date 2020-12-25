@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/hubert/myWebApp/myWebApp.csproj": {}
+    "/home/hubert/Dokumenty/GitHub/parts/myWebApp.csproj": {}
   },
   "projects": {
-    "/home/hubert/myWebApp/myWebApp.csproj": {
+    "/home/hubert/Dokumenty/GitHub/parts/myWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hubert/myWebApp/myWebApp.csproj",
+        "projectUniqueName": "/home/hubert/Dokumenty/GitHub/parts/myWebApp.csproj",
         "projectName": "myWebApp",
-        "projectPath": "/home/hubert/myWebApp/myWebApp.csproj",
+        "projectPath": "/home/hubert/Dokumenty/GitHub/parts/myWebApp.csproj",
         "packagesPath": "/home/hubert/.nuget/packages/",
-        "outputPath": "/home/hubert/myWebApp/obj/",
+        "outputPath": "/home/hubert/Dokumenty/GitHub/parts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hubert/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,34 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
