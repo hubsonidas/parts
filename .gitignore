@@ -431,3 +431,5 @@ obj/Debug/net5.0/myWebApp.Views.dll
 obj/Debug/net5.0/myWebApp.Views.pdb
 obj/Debug/net5.0/Razor/Pages/Shared/_Layout.cshtml.g.cs
 obj/Debug/net5.0/ref/myWebApp.dll
+obj/Debug/net5.0/myWebApp.dll
+obj/Debug/net5.0/myWebApp.pdb
