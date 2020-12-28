@@ -19,13 +19,13 @@ else
                 <th scope="col">Producer</th>
             </tr>
         </thead>
-        @foreach(var question in Model.LaptopsTable)
+        @foreach(var laptop in Model.LaptopsTable)
         {
             <tr>
-                <td>@question.ID</td>
-                <td>@question.State</td>
-                <td>@question.Model</td>
-                <td>@question.Producer</td>
+                <td><a href = '@string.Format("LaptopDetails/?ID={0}", laptop.ID)'>@laptop.ID</a></td>
+                <td><a href = '@string.Format("LaptopDetails/?ID={0}", laptop.ID)'>@laptop.State</td>
+                <td><a href = '@string.Format("LaptopDetails/?ID={0}", laptop.ID)'>@laptop.Model</td>
+                <td><a href = '@string.Format("LaptopDetails/?ID={0}", laptop.ID)'>@laptop.Producer</td>
             </tr>
 
         }
